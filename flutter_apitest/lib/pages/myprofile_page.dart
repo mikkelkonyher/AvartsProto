@@ -4,8 +4,8 @@ import 'package:flutter_avartsproto/pages/friends_page.dart';
 import 'package:flutter_avartsproto/pages/login_page.dart';
 import 'package:flutter_avartsproto/services/api_service.dart';
 
-class LazyStravaPage extends StatelessWidget {
-  const LazyStravaPage({super.key, required this.loginResult});
+class MyProfilePage extends StatelessWidget {
+  const MyProfilePage({super.key, required this.loginResult});
 
   final LoginResult loginResult;
 

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_avartsproto/models/activity_post.dart';
-import 'package:flutter_avartsproto/pages/lazy_strava_page.dart';
+import 'package:flutter_avartsproto/pages/myprofile_page.dart';
 import 'package:flutter_avartsproto/pages/log_activity_page.dart';
 import 'package:flutter_avartsproto/services/api_service.dart';
 
@@ -74,7 +74,7 @@ class _ActivityFeedPageState extends State<ActivityFeedPage> {
   Future<void> _openInsights() async {
     await Navigator.of(context).push(
       MaterialPageRoute(
-        builder: (_) => LazyStravaPage(loginResult: widget.loginResult),
+        builder: (_) => MyProfilePage(loginResult: widget.loginResult),
       ),
     );
   }
