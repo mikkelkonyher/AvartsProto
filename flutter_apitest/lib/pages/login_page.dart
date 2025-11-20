@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_apitest/pages/activity_feed_page.dart';
-import 'package:flutter_apitest/pages/register_page.dart';
-import 'package:flutter_apitest/services/api_service.dart';
+import 'package:flutter_avartsproto/pages/activity_feed_page.dart';
+import 'package:flutter_avartsproto/pages/register_page.dart';
+import 'package:flutter_avartsproto/services/api_service.dart';
 
 class LoginPage extends StatefulWidget {
   const LoginPage({super.key});

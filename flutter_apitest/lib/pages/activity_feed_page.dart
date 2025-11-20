@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_apitest/models/activity_post.dart';
-import 'package:flutter_apitest/pages/lazy_strava_page.dart';
-import 'package:flutter_apitest/pages/log_activity_page.dart';
-import 'package:flutter_apitest/services/api_service.dart';
+import 'package:flutter_avartsproto/models/activity_post.dart';
+import 'package:flutter_avartsproto/pages/lazy_strava_page.dart';
+import 'package:flutter_avartsproto/pages/log_activity_page.dart';
+import 'package:flutter_avartsproto/services/api_service.dart';
 
 class ActivityFeedPage extends StatefulWidget {
   const ActivityFeedPage({super.key, required this.loginResult});

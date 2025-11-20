@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart';
-import 'package:flutter_apitest/pages/login_page.dart';
-import 'package:flutter_apitest/pages/register_page.dart';
+import 'package:flutter_avartsproto/pages/login_page.dart';
+import 'package:flutter_avartsproto/pages/register_page.dart';
 
 const Color _scaffoldColor = Color(0xFF0D1117);
 

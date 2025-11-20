@@ -1,5 +1,5 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:flutter_apitest/main.dart';
+import 'package:flutter_avartsproto/main.dart';
 
 void main() {
   testWidgets('Shows login screen initially', (tester) async {

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_apitest/pages/chat_page.dart';
+import 'package:flutter_avartsproto/pages/chat_page.dart';
 
 class FriendsPage extends StatefulWidget {
   const FriendsPage({super.key, required this.currentUser});
